@@ -1,0 +1,20 @@
+{
+    "name": "breeze-magezon/module-page-builder-slider",
+    "version": "1.0.0",
+    "description": "Magezon Pagebuilder Slider integration with Breeze Frontend",
+    "type": "magento2-module",
+    "require": {
+        "swissup/module-breeze-magezon-builder": "^1.0.0"
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BreezeMagezon\\PageBuilderSlider\\": ""
+        }
+    }
+}
